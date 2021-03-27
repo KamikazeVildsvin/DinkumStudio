@@ -13,13 +13,25 @@ body {
 
 .nav-wrapper {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     padding: 20px;
+    text-shadow: 1px 1px 1px whitesmoke;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    backdrop-filter: blur(4px);
 }
 
 /* Nav styles */
 
 .left-side {
+    display: flex;
+}
+
+.right-side {
     display: flex;
 }
 
