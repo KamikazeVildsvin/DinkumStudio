@@ -78,12 +78,14 @@ body {
     display: flex;
     justify-content: center;
     color: black;
+    margin: 20px;
 }
 
 .frontpage-text {
     display: flex;
     justify-content: center;
     color: black;
+    margin: 20px;
 }
 
 .spotify-link-wrapper {
