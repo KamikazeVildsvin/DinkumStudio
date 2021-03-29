@@ -88,16 +88,37 @@ body {
     margin: 20px;
 }
 
-.spotify-link-wrapper {
+/* Embedded/link styles */
+
+.embedded-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.embedded-wrapper > div {
     display: flex;
     justify-content: center;
     margin-top: 100px;
     margin-bottom: 100px;
 }
 
+.iframe-wrapper > h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.instagram-embedded-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+/* Frontpage picture styles */
+
 .frontpage-pictures {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .frontpage-picture {
